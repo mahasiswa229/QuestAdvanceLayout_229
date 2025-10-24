@@ -74,6 +74,14 @@ fun AktivitasPertama(modifier: Modifier) {
                                 .padding(top = 5.dp)
                                 .padding(bottom = 15.dp)
                         )
+                        Text(
+                            text = stringResource(id = R.string.nomor).trim(),
+                            fontSize = 20.sp,
+                            color = Color.White,
+                            fontWeight = FontWeight.Normal,
+                            modifier = Modifier
+                                .padding(bottom = 15.dp)
+                        )
                     }
                 }
             }
