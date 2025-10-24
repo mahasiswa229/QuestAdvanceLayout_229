@@ -84,3 +84,8 @@ fun AktivitasPertama(modifier: Modifier) {
         }
     }
 }
+
+@Composable
+fun CardBaru(modifier: Modifier) {
+
+}
