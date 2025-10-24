@@ -122,6 +122,16 @@ fun AktivitasPertama(modifier: Modifier) {
                 }
             }
             }
+            Card (
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 15.dp, vertical = 7.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = Color.Magenta
+                ),
+                elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+            ){
+            }
             Box(
                 modifier = Modifier.fillMaxSize()
             ){
