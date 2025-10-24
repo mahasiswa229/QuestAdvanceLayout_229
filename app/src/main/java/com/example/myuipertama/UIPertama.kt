@@ -49,7 +49,7 @@ fun AktivitasPertama(modifier: Modifier) {
                 )
             ){
                 Row {
-                    val gambar = painterResource(id = R.drawable.logo_ugm)
+                    val gambar = painterResource(id = R.drawable.logo_umy)
                     Image(
                         painter = gambar,
                         contentDescription = null,
@@ -94,7 +94,7 @@ fun AktivitasPertama(modifier: Modifier) {
                 ),
                 elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
             ) { Row{
-                val gambar = painterResource(id = R.drawable.logo_ugm)
+                val gambar = painterResource(id = R.drawable.logo_umy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -139,7 +139,7 @@ fun AktivitasPertama(modifier: Modifier) {
                 ),
                 elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
             ){Row {
-                val gambar = painterResource(id = R.drawable.logo_ugm)
+                val gambar = painterResource(id = R.drawable.logo_umy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
