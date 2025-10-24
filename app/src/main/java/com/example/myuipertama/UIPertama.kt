@@ -130,7 +130,7 @@ fun AktivitasPertama(modifier: Modifier) {
                     containerColor = Color.Magenta
                 ),
                 elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
-            ){{ Row {
+            ){Row {
                 val gambar = painterResource(id = R.drawable.logo_ugm)
                 Image(
                     painter = gambar,
@@ -140,6 +140,31 @@ fun AktivitasPertama(modifier: Modifier) {
                         .padding(all = 5.dp)
                 )
                 Spacer(modifier = Modifier.width(30.dp))
+                Column {
+                    Text(
+                        text = stringResource(id = R.string.nama3),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.SansSerif,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.alamat3),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier
+                            .padding(top = 5.dp)
+                            .padding(bottom = 15.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.nomor3).trim(),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        fontWeight = FontWeight.Normal,
+                        modifier = Modifier
+                            .padding(bottom = 15.dp)
+                    )
+                }
             }
             }
             Box(
