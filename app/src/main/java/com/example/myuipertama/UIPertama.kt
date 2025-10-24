@@ -85,7 +85,18 @@ fun AktivitasPertama(modifier: Modifier) {
                     containerColor = Color(0xFF0D47A1) // Warna Biru Tua
                 ),
                 elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
-            ) { }
+            ) { Row{
+                val gambar = painterResource(id = R.drawable.logo_ugm)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(all = 5.dp)
+                )
+
+            }
+            }
             Box(
                 modifier = Modifier.fillMaxSize()
             ){
