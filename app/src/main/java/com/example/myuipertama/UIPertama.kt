@@ -94,7 +94,32 @@ fun AktivitasPertama(modifier: Modifier) {
                         .size(100.dp)
                         .padding(all = 5.dp)
                 )
-
+                Spacer(modifier = Modifier.width(30.dp))
+                Column {
+                    Text(
+                        text = stringResource(id = R.string.nama2),
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.SansSerif,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.alamat2),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier
+                            .padding(top = 5.dp)
+                            .padding(bottom = 15.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.nomor2).trim(),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        fontWeight = FontWeight.Normal,
+                        modifier = Modifier
+                            .padding(bottom = 15.dp)
+                    )
+                }
             }
             }
             Box(
