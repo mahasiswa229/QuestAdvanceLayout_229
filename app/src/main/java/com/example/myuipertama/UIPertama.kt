@@ -3,6 +3,7 @@ package com.example.myuipertama
 import android.text.Layout
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -18,6 +19,13 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun AktivitasPertama(modifier: Modifier) {
+    Column (
+        modifier = Modifier
+            .padding(top = 50.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.SpaceBetween
+    ) {  }
     Column(
         modifier = Modifier
             .padding(top = 100.dp)
